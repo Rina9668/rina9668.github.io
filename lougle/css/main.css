@@ -17,8 +17,12 @@ form {
         height: 40px;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
         border: 1px solid #eee;
-        
 }
+        
+        ul{
+	margin-top:0;
+}
+        
 #search-field {
         height: 40px;
         border: none;
@@ -51,3 +55,11 @@ section {
         padding-left: 120px;
 }
 
+.box {
+        border: 1px solid #eee;
+        float: right;
+        position: absolute;
+        top:15%;
+        right:10%;
+
+}
