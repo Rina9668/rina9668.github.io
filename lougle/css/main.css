@@ -45,6 +45,7 @@ li {
   list-style-type: none;
   display: inline;
 }
+
 header{
   background: #fafafa;
   padding: 20px;
@@ -57,7 +58,7 @@ form {
   float: left;
   margin-left: 140px;
   margin-top: -60px;
-  height: 40px;
+  height: 45px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
   border: 1px solid #eee;
 }
@@ -100,19 +101,33 @@ input.button_add {
 }
 #main-nav li {
   display: inline; 
-  padding: 0px 5px 0px 20px;
-  font-family: arial,sans-serif;
+  padding: 0px 2px 0px 20px;
+  font-family: arial, sans-serif;
   color: #808080;
 }
+
+.all {
+  color: #448AFF;
+  font-weight: 700px;
+  text-decoration: underline;
+}
+
+
 #logo {
   float: left;
   width: 120px;
   padding-right: 20px;
 }
 
+#title:hover {
+    text-decoration: underline;
+}
+
+
+
 section {
   width: 64%;
-  padding-left: 7.2%;
+  padding-left: 8.5%;
   float: left;
 }
 
@@ -124,7 +139,7 @@ section {
   text-align: center;
 }
 .box, p {
-  width: 92%;
+  width: 95%;
   margin-left: 10px;
   margin-top: 10px;
   
@@ -147,7 +162,7 @@ footer {
   bottom: 0%;
   text-align: left;
   padding-top: 15px;
-  padding-left: 80px;
+  padding-left: 90px;
   font-family: arial;
   color: #808080;
 }
@@ -163,16 +178,16 @@ footer, li{
 }
   
 #button-holder{
-  cursor:pointer;
-  float:right;
-  height:27px;
+  cursor: pointer;
+  float: right;
+  height: 30px;
   margin: -2px;
-  text-align:center;
-  width:50px;
+  text-align: center;
+  width: 50px;
 }
   
 #button-holder img{
-  margin: 4px;
+  margin: 5px;
   width: 35px; 
 }
 
