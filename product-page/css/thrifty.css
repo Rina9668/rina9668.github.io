@@ -1,0 +1,190 @@
+*{      
+        box-sizing: border-box;
+       /*border: red 1px solid;*/
+}
+ .clearfix:after {
+            content:" ";
+            display:table;
+            clear:both;
+          }
+body {
+  margin: 0px;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    color: #ffffff;
+   /* margin-top:150px;*/
+}
+h2 {
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+   /* margin-top:50px;*/
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+    padding:0px;
+    margin:0px;
+    /*text-align:center;*/
+    /* margin-top:50px;*/
+}
+header {
+    background-image:url(../images/header.jpg);
+    /*background-repeat: no-repeat;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 722px;
+    /*position: relative;*/
+
+}
+#top-form {
+    width: 600px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    padding-top: 100px;
+}
+input {
+    width: 400px;
+    padding: 12px 20px;
+    margin-top: 50px;
+    border: 1px black;
+    box-sizing: border-box;
+}
+
+#sumbit {
+    background-color: #C4FDD6;
+    color: black;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+}
+
+#text {
+     z-index:100;
+    position:absolute;    
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+    left:150px;
+    top:350px;
+    
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    text-align: center;
+     color: #ffffff;
+     padding-top: 30px;
+     padding-bottom: 80px;
+}
+p {
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    font-size: 14px;
+}
+main {
+    background-image:url(../images/bg.jpg);
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+    margin-left: auto;
+	margin-right: auto;
+    }
+    
+
+#center-column {
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
+     margin-left: auto;
+	margin-right: auto;
+}
+
+#explore {
+     text-align: center;
+      padding-bottom: 70px;
+    
+}
+
+#howto {
+    text-align: center;
+     padding-bottom: 70px;
+}
+
+#store {
+    text-align: center;
+     padding-bottom: 70px;
+}
+
+#sellers{
+    text-align: center;
+     width: 1000px; 
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+#sign-up {
+    background-image:url(../images/bg-2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+#space {
+    background-color: white;
+    text-align: center;
+    height: 400px;
+    padding-top: 40px;
+}
+#greg {
+    padding-left: 40px;
+    padding-right: 39px;
+}
+
+#appeal {
+    background-color: white;
+    text-align: center;
+    height: 800px;
+     background-image:url(../images/waste.jpg);
+    /*background-repeat: no-repeat;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    padding-top: 50px;
+}
+
+
+#pbs {
+    height: 83px;
+    width: 156px;
+}
+
+
+#bottom-form {
+    width: 600px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+	margin-right: auto;
+}
