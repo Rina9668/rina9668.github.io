@@ -1,73 +1,71 @@
 *{      
         box-sizing: border-box;
-       /*border: red 1px solid;*/
+        /*border: red 1px solid;*/
 }
  .clearfix:after {
             content:" ";
             display:table;
-            clear:both;
           }
 body {
   margin: 0px;
 }
 
+
 h1 {
     font-family: 'Special Elite', cursive;
     text-align:center;
     color: #ffffff;
-   /* margin-top:150px;*/
+
 }
 h2 {
     font-family: 'Special Elite', cursive;
     text-align:center;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
     padding-top: 30px;
-   /* margin-top:50px;*/
 }
 
 h3 {
     font-family: 'Special Elite', cursive;
-    padding:0px;
-    margin:0px;
-    /*text-align:center;*/
-    /* margin-top:50px;*/
 }
+
 header {
     background-image:url(../images/header.jpg);
-    /*background-repeat: no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 722px;
-    /*position: relative;*/
-
 }
 #top-form {
     width: 600px;
     padding: 12px 20px;
-    box-sizing: border-box;
     margin: auto;
     padding-top: 100px;
 }
+
 input {
     width: 400px;
     padding: 12px 20px;
-    margin-top: 50px;
-    border: 1px black;
-    box-sizing: border-box;
+    border: 1px white;
 }
 
-#sumbit {
-    background-color: #C4FDD6;
+#submit {
+    background-color: rgba(255, 255, 255, 0.6);
     color: black;
-    margin: 8px 0;
-    padding: 12px 20px;
-    border: none;
     cursor: pointer;
-    width: 20%;
+    width: 24%;
+    height: 40px;
     font-family: 'Special Elite', cursive;
+    font-size: 14px;
     text-align:center;
+    position:relative;
+    top: -3px;
+    left: -4px;
+}
+
+#submit:hover {
+    background-color: white;
+    color: #aae5ba;
 }
 
 #text {
@@ -78,7 +76,6 @@ input {
     font-weight:bold;
     left:150px;
     top:350px;
-    
 }
 
 #logo {
@@ -89,6 +86,7 @@ input {
      padding-top: 30px;
      padding-bottom: 80px;
 }
+
 p {
     font-family: 'Special Elite', cursive;
     text-align:center;
@@ -106,35 +104,81 @@ main {
 	margin-right: auto;
     }
     
-
 #center-column {
     width: 1000px;
     background-color: rgba(255, 255, 255, 0.5);
-     margin-left: auto;
+    margin-left: auto;
 	margin-right: auto;
 }
 
 #explore {
      text-align: center;
       padding-bottom: 70px;
-    
 }
 
 #howto {
     text-align: center;
-     padding-bottom: 70px;
+    padding-bottom: 70px;
+}
+
+.howtolabel{
+    position:relative;
+    padding-top:50px;
+}
+
+.howtolabelfirst{
+    position:relative;
+    padding-top:20px;
 }
 
 #store {
     text-align: center;
-     padding-bottom: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    width: 1000 px;
+}
+
+
+.slider {
+	width: 1000px;
+	margin: 2em auto;
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 666px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition: opacity 3s linear;
+	left:0px;
+	object-fit: cover;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
 }
 
 #sellers{
     text-align: center;
-     width: 1000px; 
+    width: 1000px; 
     margin: auto;
     padding-bottom: 70px;
+}
+    
+.seller-img{
+   float: left; 
+}
+
+#greg {
+    padding-left: 40px;
+    padding-right: 39px;
 }
 
 #sign-up {
@@ -146,7 +190,6 @@ main {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    
 }
 
 #space {
@@ -155,17 +198,13 @@ main {
     height: 400px;
     padding-top: 40px;
 }
-#greg {
-    padding-left: 40px;
-    padding-right: 39px;
-}
+
 
 #appeal {
     background-color: white;
     text-align: center;
     height: 800px;
      background-image:url(../images/waste.jpg);
-    /*background-repeat: no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -174,12 +213,10 @@ main {
     padding-top: 50px;
 }
 
-
 #pbs {
     height: 83px;
     width: 156px;
 }
-
 
 #bottom-form {
     width: 600px;
@@ -188,3 +225,20 @@ main {
     margin-left: auto;
 	margin-right: auto;
 }
+
+.confirmation {
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    color: white;
+}
+
+.error {
+    font-family: 'Special Elite', cursive;
+    text-align:center;
+    color: red;
+    }
+
+.lines {
+    font-size: 35px;
+}
+

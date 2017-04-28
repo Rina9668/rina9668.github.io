@@ -11,68 +11,85 @@
       
     <header>
         <div id="logo">Thrifty</div>
-        <h1>The easiest way to buy secondhand garments from individuals and stores.</h1>
+        <h1>The app to buy secondhand garments from individuals and stores.</h1>
         <h2 style= "color: #ffffff;">Get notified when Thrifty launches to discover hidden gems in your neighborhood.</h2>
         <form id="top-form">
+            <p class="confirmation">Thanks! You'll hear from us soon.</p>
+            <p class="error">Email is invalid.</p>
             <input type="text" placeholder="Enter Email" name="email"/>
-            <input id="submit" type="submit" value="Get Notified"/>
+            <input id="submit" type="submit" value="Notify Me"/>
         </form>
     </header>
     
     <main>
         <section id="center-column">
-             <section id="explore">
-                 <br>
+            <section id="explore">
+                    <br>
                     <br>
                  <h2>Uncover local thrift stores and unique sellers.</h2>
-                  <img src=images/explore.png>
-                  </section>
+                 <img src=images/explore.png>
+            </section>
             <section id="howto">
                  <h2>Buy from Indivduals</h2>
-                     <h3>Set your local radius</h3>
+                     <h3 class="howtolabelfirst">Set your local radius</h3>
+                     <br>
                      <img src=images/howto1.png>
-                     <h3>Message a local seller</h3>
+             
+                     <h3 class="howtolabel">Message a local seller</h3>
                      <img src=images/howto2.png>
-                     <h3>Set up rendezvous and pay in person </h3>
+                   
+                     <h3 class="howtolabel">Set up rendezvous and pay in person </h3>
+                     <br>
                      <img src=images/howto3.png>
             </section>
             <section id="store">
                 <h2>Buy from Stores</h2>
-                <img src=images/stores.jpg>
+                <div class="slider" id="main-slider"><!-- outermost container element -->
+	                   <div class="slider-wrapper"><!-- innermost wrapper element -->
+	                    	<img src=images/stores.jpg alt="First" class="slide"/>
+		                    <img src=images/store2.jpg alt="Second" class="slide" />
+		                    <img src=images/store3.jpg alt="Third" class="slide" />
+    	               </div>
+                </div>	
             </section>
+          
             <section id ="sellers">
-                <h2>Featured Sellers</h2>
-                <div style="width:500 px">
-                <div style="float:left; width:356 px"> <img src=images/seller1.png>
-                     <p><b>TamaraFinds</b></p> 
-                    <p>Brookyn, NY</p>
-                </div>
-                <div style="float:left; width:356 px"> <div id="greg"> <img src=images/seller2.png> </div>
-                     <p><b>Greggscloset</b></p>
-                    <p>San Diego, CA</p>
-                </div>
-                <div style="float:left; width:356 px"><img src=images/seller3.png>
-                    <p></b>Vintage60s</b></p>
-                      <p>Portland, OR</p>
-                </div>
-                <div style="clear:both"></div>
-                </div>
-             </section>
+                    <h2>Featured Sellers</h2>
+                    <div class="seller-img">
+                        <img src=images/seller1.png>
+                        <p><b>TamaraFinds</b></p> 
+                        <p>Brookyn, NY</p>
+                    </div>
+                    <div class="seller-img"id="greg">
+                        <img src=images/seller2.png> 
+                        <p><b>Gregscloset</b></p>
+                        <p>San Diego, CA</p>
+                    </div>
+                    <div class="seller-img">
+                        <img src=images/seller3.png>
+                        <p><b>Vintage60s</b></p>
+                        <p>Portland, OR</p>
+                    </div>
+                    <div style="clear:both"></div>
             </section>
       </section>
     </main>
          <section id="space">
-                 <p style="font-size:35px">"Americans throw away 13 tons of textile every year."</p>
+                 <p class="lines">"Americans throw away 13 tons of textile every year."</p>
+                 <p class="lines"> Shop Sustainably.</p>
                 <img id ="pbs" src=images/pbs.png>
-            </section>
+         </section>
             <section id="appeal">
             </section>
             <section id=sign-up>
-            <form id="bottom-form" action="/action_page.php">
+            <p class="lines">Enter your email to get notified when we launch soon!</p>
+            <p class="confirmation">Thanks! You'll hear from us soon.</p>
+            <p class="error">This email looks invalid.</p>
+            <form id="bottom-form">
                 <input type="text" placeholder="Enter Email" name="email"/>
-                <input id="submit" type="submit" value="Get Notified"/>
-            </form> 
-  
+                <input id="submit" type="submit" value="Notify Me"/>
+            </form>
+            </section>
         <footer>
             
         </footer>
